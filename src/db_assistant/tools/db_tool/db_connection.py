@@ -4,7 +4,6 @@ import psycopg
 def get_db_connection():
     """
     Establish a connection to the PostgreSQL database.
-
     Returns:
         psycopg.Connection: A database connection object.
     """
